@@ -6,20 +6,20 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1090</width>
-    <height>498</height>
+    <width>1092</width>
+    <height>497</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <layout class="QHBoxLayout" name="horizontalLayout_5">
-   <item>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0" rowspan="3" colspan="2">
     <widget class="QWidget" name="widget_3" native="true">
      <property name="minimumSize">
       <size>
        <width>441</width>
-       <height>481</height>
+       <height>501</height>
       </size>
      </property>
      <layout class="QVBoxLayout" name="verticalLayout">
@@ -38,6 +38,17 @@
       </item>
       <item>
        <widget class="QWidget" name="widget_6" native="true">
+        <property name="minimumSize">
+         <size>
+          <width>421</width>
+          <height>99</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#widget_6{
+	border: 1px  solid #C0C0C0;
+}</string>
+        </property>
         <layout class="QHBoxLayout" name="horizontalLayout_4">
          <item>
           <spacer name="horizontalSpacer_7">
@@ -150,24 +161,17 @@
        <widget class="QWidget" name="widget_5" native="true">
         <property name="minimumSize">
          <size>
-          <width>441</width>
+          <width>421</width>
           <height>291</height>
          </size>
         </property>
+        <property name="styleSheet">
+         <string notr="true">#widget_5
+{
+	border: 1px  solid #C0C0C0;
+}</string>
+        </property>
         <layout class="QHBoxLayout" name="horizontalLayout_3">
-         <item>
-          <spacer name="horizontalSpacer_4">
-           <property name="orientation">
-            <enum>Qt::Horizontal</enum>
-           </property>
-           <property name="sizeHint" stdset="0">
-            <size>
-             <width>2</width>
-             <height>20</height>
-            </size>
-           </property>
-          </spacer>
-         </item>
          <item>
           <widget class="QWidget" name="widget_2" native="true">
            <property name="minimumSize">
@@ -516,7 +520,7 @@
            </property>
            <property name="sizeHint" stdset="0">
             <size>
-             <width>2</width>
+             <width>1</width>
              <height>20</height>
             </size>
            </property>
@@ -533,7 +537,7 @@
         <property name="sizeHint" stdset="0">
          <size>
           <width>20</width>
-          <height>6</height>
+          <height>18</height>
          </size>
         </property>
        </spacer>
@@ -561,7 +565,7 @@
           </spacer>
          </item>
          <item>
-          <widget class="QPushButton" name="capture_button">
+          <widget class="QPushButton" name="pushButton">
            <property name="text">
             <string>Capture</string>
            </property>
@@ -574,14 +578,14 @@
            </property>
            <property name="sizeHint" stdset="0">
             <size>
-             <width>74</width>
+             <width>66</width>
              <height>20</height>
             </size>
            </property>
           </spacer>
          </item>
          <item>
-          <widget class="QPushButton" name="capture_append_button">
+          <widget class="QPushButton" name="pushButton_2">
            <property name="text">
             <string>Capture +</string>
            </property>
@@ -611,28 +615,27 @@
         <property name="sizeHint" stdset="0">
          <size>
           <width>20</width>
-          <height>6</height>
+          <height>0</height>
          </size>
         </property>
        </spacer>
       </item>
+      <item>
+       <widget class="QLabel" name="name_label">
+        <property name="styleSheet">
+         <string notr="true">font: 75 8pt &quot;Myanmar Text&quot;;
+color: rgb(158, 158, 158);
+</string>
+        </property>
+        <property name="text">
+         <string>Created by Alexander Yazdani</string>
+        </property>
+       </widget>
+      </item>
      </layout>
     </widget>
    </item>
-   <item>
-    <spacer name="horizontalSpacer_8">
-     <property name="orientation">
-      <enum>Qt::Horizontal</enum>
-     </property>
-     <property name="sizeHint" stdset="0">
-      <size>
-       <width>40</width>
-       <height>20</height>
-      </size>
-     </property>
-    </spacer>
-   </item>
-   <item>
+   <item row="0" column="3" rowspan="3">
     <widget class="QWidget" name="Plot_Widget" native="true">
      <property name="minimumSize">
       <size>
@@ -641,6 +644,19 @@
       </size>
      </property>
     </widget>
+   </item>
+   <item row="0" column="2">
+    <spacer name="horizontalSpacer_8">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>618</width>
+       <height>20</height>
+      </size>
+     </property>
+    </spacer>
    </item>
   </layout>
  </widget>
