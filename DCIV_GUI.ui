@@ -6,15 +6,15 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1092</width>
-    <height>497</height>
+    <width>1104</width>
+    <height>519</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
-  <layout class="QGridLayout" name="gridLayout">
-   <item row="0" column="0" rowspan="3" colspan="2">
+  <layout class="QHBoxLayout" name="horizontalLayout_3">
+   <item>
     <widget class="QWidget" name="widget_3" native="true">
      <property name="minimumSize">
       <size>
@@ -50,19 +50,6 @@
 }</string>
         </property>
         <layout class="QHBoxLayout" name="horizontalLayout_4">
-         <item>
-          <spacer name="horizontalSpacer_7">
-           <property name="orientation">
-            <enum>Qt::Horizontal</enum>
-           </property>
-           <property name="sizeHint" stdset="0">
-            <size>
-             <width>3</width>
-             <height>20</height>
-            </size>
-           </property>
-          </spacer>
-         </item>
          <item>
           <widget class="QWidget" name="widget" native="true">
            <property name="minimumSize">
@@ -128,19 +115,6 @@
            </widget>
           </widget>
          </item>
-         <item>
-          <spacer name="horizontalSpacer_6">
-           <property name="orientation">
-            <enum>Qt::Horizontal</enum>
-           </property>
-           <property name="sizeHint" stdset="0">
-            <size>
-             <width>3</width>
-             <height>20</height>
-            </size>
-           </property>
-          </spacer>
-         </item>
         </layout>
        </widget>
       </item>
@@ -171,7 +145,7 @@
 	border: 1px  solid #C0C0C0;
 }</string>
         </property>
-        <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
          <item>
           <widget class="QWidget" name="widget_2" native="true">
            <property name="minimumSize">
@@ -513,19 +487,6 @@
            </widget>
           </widget>
          </item>
-         <item>
-          <spacer name="horizontalSpacer_5">
-           <property name="orientation">
-            <enum>Qt::Horizontal</enum>
-           </property>
-           <property name="sizeHint" stdset="0">
-            <size>
-             <width>1</width>
-             <height>20</height>
-            </size>
-           </property>
-          </spacer>
-         </item>
         </layout>
        </widget>
       </item>
@@ -552,37 +513,11 @@
         </property>
         <layout class="QHBoxLayout" name="horizontalLayout">
          <item>
-          <spacer name="horizontalSpacer_3">
-           <property name="orientation">
-            <enum>Qt::Horizontal</enum>
-           </property>
-           <property name="sizeHint" stdset="0">
-            <size>
-             <width>74</width>
-             <height>20</height>
-            </size>
-           </property>
-          </spacer>
-         </item>
-         <item>
           <widget class="QPushButton" name="pushButton">
            <property name="text">
             <string>Capture</string>
            </property>
           </widget>
-         </item>
-         <item>
-          <spacer name="horizontalSpacer">
-           <property name="orientation">
-            <enum>Qt::Horizontal</enum>
-           </property>
-           <property name="sizeHint" stdset="0">
-            <size>
-             <width>66</width>
-             <height>20</height>
-            </size>
-           </property>
-          </spacer>
          </item>
          <item>
           <widget class="QPushButton" name="pushButton_2">
@@ -592,17 +527,18 @@
           </widget>
          </item>
          <item>
-          <spacer name="horizontalSpacer_2">
-           <property name="orientation">
-            <enum>Qt::Horizontal</enum>
+          <widget class="QPushButton" name="pushButton_3">
+           <property name="text">
+            <string>Clear</string>
            </property>
-           <property name="sizeHint" stdset="0">
-            <size>
-             <width>67</width>
-             <height>20</height>
-            </size>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_4">
+           <property name="text">
+            <string>Save Plot</string>
            </property>
-          </spacer>
+          </widget>
          </item>
         </layout>
        </widget>
@@ -635,28 +571,35 @@ color: rgb(158, 158, 158);
      </layout>
     </widget>
    </item>
-   <item row="0" column="3" rowspan="3">
+   <item>
     <widget class="QWidget" name="Plot_Widget" native="true">
      <property name="minimumSize">
       <size>
-       <width>621</width>
-       <height>481</height>
+       <width>639</width>
+       <height>501</height>
       </size>
      </property>
+     <property name="styleSheet">
+      <string notr="true">#Plot_Widget{
+	border: 1px  solid #C0C0C0;
+}</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <spacer name="horizontalSpacer_4">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>618</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
     </widget>
-   </item>
-   <item row="0" column="2">
-    <spacer name="horizontalSpacer_8">
-     <property name="orientation">
-      <enum>Qt::Horizontal</enum>
-     </property>
-     <property name="sizeHint" stdset="0">
-      <size>
-       <width>618</width>
-       <height>20</height>
-      </size>
-     </property>
-    </spacer>
    </item>
   </layout>
  </widget>
