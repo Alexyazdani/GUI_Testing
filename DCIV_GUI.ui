@@ -22,6 +22,12 @@
        <height>501</height>
       </size>
      </property>
+     <property name="maximumSize">
+      <size>
+       <width>441</width>
+       <height>16777215</height>
+      </size>
+     </property>
      <layout class="QVBoxLayout" name="verticalLayout">
       <item>
        <spacer name="verticalSpacer_4">
@@ -42,6 +48,12 @@
          <size>
           <width>421</width>
           <height>99</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>421</width>
+          <height>16777215</height>
          </size>
         </property>
         <property name="styleSheet">
@@ -137,6 +149,12 @@
          <size>
           <width>421</width>
           <height>291</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>421</width>
+          <height>16777215</height>
          </size>
         </property>
         <property name="styleSheet">
@@ -511,6 +529,12 @@
           <height>41</height>
          </size>
         </property>
+        <property name="maximumSize">
+         <size>
+          <width>421</width>
+          <height>16777215</height>
+         </size>
+        </property>
         <layout class="QHBoxLayout" name="horizontalLayout">
          <item>
           <widget class="QPushButton" name="pushButton">
@@ -584,21 +608,7 @@ color: rgb(158, 158, 158);
 	border: 1px  solid #C0C0C0;
 }</string>
      </property>
-     <layout class="QGridLayout" name="gridLayout">
-      <item row="0" column="0">
-       <spacer name="horizontalSpacer_4">
-        <property name="orientation">
-         <enum>Qt::Horizontal</enum>
-        </property>
-        <property name="sizeHint" stdset="0">
-         <size>
-          <width>618</width>
-          <height>20</height>
-         </size>
-        </property>
-       </spacer>
-      </item>
-     </layout>
+     <layout class="QGridLayout" name="gridLayout"/>
     </widget>
    </item>
   </layout>
