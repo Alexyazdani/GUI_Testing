@@ -419,7 +419,7 @@
              <string>0.0001</string>
             </property>
            </widget>
-           <widget class="QLineEdit" name="v_step_entry_2">
+           <widget class="QLineEdit" name="i_app_entry">
             <property name="geometry">
              <rect>
               <x>250</x>
@@ -432,7 +432,7 @@
              <string>0.05</string>
             </property>
            </widget>
-           <widget class="QLabel" name="i_app_entry">
+           <widget class="QLabel" name="label20">
             <property name="geometry">
              <rect>
               <x>250</x>
