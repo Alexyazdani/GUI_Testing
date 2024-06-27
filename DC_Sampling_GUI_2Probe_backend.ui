@@ -195,7 +195,7 @@
              </rect>
             </property>
             <property name="placeholderText">
-             <string>-1</string>
+             <string>101</string>
             </property>
            </widget>
            <widget class="QLineEdit" name="interval_entry">
@@ -208,7 +208,7 @@
              </rect>
             </property>
             <property name="placeholderText">
-             <string>1</string>
+             <string>0.1</string>
             </property>
            </widget>
            <widget class="QLineEdit" name="I_comp_entry">
@@ -416,7 +416,7 @@
              </rect>
             </property>
             <property name="placeholderText">
-             <string>0.0001</string>
+             <string>0.5</string>
             </property>
            </widget>
            <widget class="QLineEdit" name="i_app_entry">
@@ -429,7 +429,7 @@
              </rect>
             </property>
             <property name="placeholderText">
-             <string>0.05</string>
+             <string>0.000025</string>
             </property>
            </widget>
            <widget class="QLabel" name="label20">
