@@ -419,7 +419,7 @@
              <string>V1 Node:</string>
             </property>
            </widget>
-           <widget class="QLineEdit" name="tool_v2_entry_2">
+           <widget class="QLineEdit" name="tool_v2_entry">
             <property name="geometry">
              <rect>
               <x>210</x>
@@ -445,7 +445,7 @@
              <string>V2 Node:</string>
             </property>
            </widget>
-           <widget class="QLineEdit" name="probe_v2_entry_2">
+           <widget class="QLineEdit" name="probe_v2_entry">
             <property name="geometry">
              <rect>
               <x>130</x>
