@@ -276,19 +276,6 @@
              <string>I_Step:</string>
             </property>
            </widget>
-           <widget class="QLabel" name="label_6">
-            <property name="geometry">
-             <rect>
-              <x>249</x>
-              <y>10</y>
-              <width>61</width>
-              <height>20</height>
-             </rect>
-            </property>
-            <property name="text">
-             <string>V_Comp:</string>
-            </property>
-           </widget>
            <widget class="QLabel" name="label_7">
             <property name="geometry">
              <rect>
@@ -299,7 +286,7 @@
              </rect>
             </property>
             <property name="text">
-             <string>Cycles</string>
+             <string>Cycles:</string>
             </property>
            </widget>
            <widget class="QLineEdit" name="probe_v1_entry">
@@ -482,6 +469,19 @@
             </property>
             <property name="text">
              <string>V1 Node:</string>
+            </property>
+           </widget>
+           <widget class="QLabel" name="label_6">
+            <property name="geometry">
+             <rect>
+              <x>250</x>
+              <y>10</y>
+              <width>60</width>
+              <height>16</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>V_comp:</string>
             </property>
            </widget>
           </widget>
