@@ -299,7 +299,7 @@
              </rect>
             </property>
             <property name="text">
-             <string>Cycles</string>
+             <string>Cycles:</string>
             </property>
            </widget>
            <widget class="QLineEdit" name="probe_active_entry">
@@ -424,7 +424,7 @@
              <rect>
               <x>10</x>
               <y>170</y>
-              <width>101</width>
+              <width>121</width>
               <height>16</height>
              </rect>
             </property>
@@ -446,6 +446,9 @@
             </property>
            </widget>
            <widget class="QLineEdit" name="tool_gate_entry">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
             <property name="geometry">
              <rect>
               <x>220</x>
@@ -462,6 +465,9 @@
             </property>
            </widget>
            <widget class="QLineEdit" name="probe_gate_entry">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
             <property name="geometry">
              <rect>
               <x>140</x>
@@ -490,20 +496,10 @@
              <string>Tool:</string>
             </property>
            </widget>
-           <widget class="QLabel" name="label_11">
-            <property name="geometry">
-             <rect>
-              <x>10</x>
-              <y>230</y>
-              <width>101</width>
-              <height>16</height>
-             </rect>
-            </property>
-            <property name="text">
-             <string>Gate Node:</string>
-            </property>
-           </widget>
            <widget class="QLineEdit" name="v_gate_entry">
+            <property name="enabled">
+             <bool>false</bool>
+            </property>
             <property name="geometry">
              <rect>
               <x>300</x>
@@ -530,6 +526,19 @@
             </property>
             <property name="text">
              <string>V_Gate:</string>
+            </property>
+           </widget>
+           <widget class="QCheckBox" name="gate_checkBox">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>230</y>
+              <width>131</width>
+              <height>17</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>Gate Node:</string>
             </property>
            </widget>
           </widget>
@@ -648,5 +657,54 @@ color: rgb(158, 158, 158);
   </layout>
  </widget>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>gate_checkBox</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>probe_gate_entry</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>167</x>
+     <y>375</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>193</x>
+     <y>375</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>gate_checkBox</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>tool_gate_entry</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>48</x>
+     <y>386</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>283</x>
+     <y>389</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>gate_checkBox</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>v_gate_entry</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>69</x>
+     <y>383</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>361</x>
+     <y>390</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>
