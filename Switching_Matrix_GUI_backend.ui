@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>459</width>
+    <width>465</width>
     <height>519</height>
    </rect>
   </property>
@@ -156,7 +156,7 @@
              <string>Row:</string>
             </property>
            </widget>
-           <widget class="QLineEdit" name="v_start_entry">
+           <widget class="QLineEdit" name="row_entry">
             <property name="geometry">
              <rect>
               <x>10</x>
@@ -169,7 +169,7 @@
              <string>1A</string>
             </property>
            </widget>
-           <widget class="QLineEdit" name="v_stop_entry">
+           <widget class="QLineEdit" name="column_entry">
             <property name="geometry">
              <rect>
               <x>90</x>
@@ -193,16 +193,6 @@
             </property>
             <property name="text">
              <string>Column:</string>
-            </property>
-           </widget>
-           <widget class="QLineEdit" name="lineEdit">
-            <property name="geometry">
-             <rect>
-              <x>200</x>
-              <y>30</y>
-              <width>181</width>
-              <height>201</height>
-             </rect>
             </property>
            </widget>
            <widget class="QPushButton" name="refresh_button">
@@ -268,6 +258,16 @@
             </property>
             <property name="text">
              <string>Open All</string>
+            </property>
+           </widget>
+           <widget class="QPlainTextEdit" name="plainTextEdit">
+            <property name="geometry">
+             <rect>
+              <x>200</x>
+              <y>30</y>
+              <width>181</width>
+              <height>201</height>
+             </rect>
             </property>
            </widget>
           </widget>
