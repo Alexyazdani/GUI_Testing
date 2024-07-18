@@ -463,12 +463,12 @@
              <rect>
               <x>10</x>
               <y>60</y>
-              <width>87</width>
+              <width>101</width>
               <height>20</height>
              </rect>
             </property>
             <property name="text">
-             <string>Fix Voltage</string>
+             <string>Force Voltage</string>
             </property>
             <property name="checked">
              <bool>true</bool>
@@ -482,12 +482,12 @@
              <rect>
               <x>10</x>
               <y>90</y>
-              <width>87</width>
+              <width>101</width>
               <height>20</height>
              </rect>
             </property>
             <property name="text">
-             <string>Fix Current</string>
+             <string>Force Current</string>
             </property>
             <property name="autoExclusive">
              <bool>true</bool>
