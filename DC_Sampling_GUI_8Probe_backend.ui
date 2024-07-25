@@ -75,12 +75,12 @@
              <rect>
               <x>140</x>
               <y>20</y>
-              <width>141</width>
+              <width>111</width>
               <height>16</height>
              </rect>
             </property>
             <property name="text">
-             <string>Switching Matrix Address:</string>
+             <string>Switch Address:</string>
             </property>
            </widget>
            <widget class="QLineEdit" name="Switching_Matrix_Address">
