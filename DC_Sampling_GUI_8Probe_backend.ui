@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1114</width>
-    <height>525</height>
+    <width>1104</width>
+    <height>519</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -726,16 +726,23 @@
           </widget>
          </item>
          <item>
-          <widget class="QPushButton" name="save_button">
+          <widget class="QPushButton" name="cancel_button">
            <property name="text">
-            <string>Save Plots</string>
+            <string>Stop</string>
            </property>
           </widget>
          </item>
          <item>
-          <widget class="QPushButton" name="cancel_button">
+          <widget class="QPushButton" name="save_data_button">
            <property name="text">
-            <string>Stop</string>
+            <string>Save Data</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="save_button">
+           <property name="text">
+            <string>Save Plots</string>
            </property>
           </widget>
          </item>
@@ -756,15 +763,44 @@
        </spacer>
       </item>
       <item>
-       <widget class="QLabel" name="name_label">
-        <property name="styleSheet">
-         <string notr="true">font: 75 8pt &quot;Myanmar Text&quot;;
+       <widget class="QWidget" name="widget_7" native="true">
+        <property name="minimumSize">
+         <size>
+          <width>411</width>
+          <height>31</height>
+         </size>
+        </property>
+        <widget class="QLabel" name="name_label">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>10</y>
+           <width>151</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">font: 75 8pt &quot;Myanmar Text&quot;;
 color: rgb(158, 158, 158);
 </string>
-        </property>
-        <property name="text">
-         <string>Created by Alexander Yazdani</string>
-        </property>
+         </property>
+         <property name="text">
+          <string>Created by Alexander Yazdani</string>
+         </property>
+        </widget>
+        <widget class="QCheckBox" name="save_checkBox">
+         <property name="geometry">
+          <rect>
+           <x>330</x>
+           <y>8</y>
+           <width>70</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Auto-Save</string>
+         </property>
+        </widget>
        </widget>
       </item>
      </layout>
