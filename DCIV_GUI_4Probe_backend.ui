@@ -531,13 +531,6 @@
         </property>
         <layout class="QHBoxLayout" name="horizontalLayout_5">
          <item>
-          <widget class="QCheckBox" name="PLC_checkBox">
-           <property name="text">
-            <string>PLC Mode</string>
-           </property>
-          </widget>
-         </item>
-         <item>
           <widget class="QCheckBox" name="save_checkBox">
            <property name="text">
             <string>Auto-Save</string>
