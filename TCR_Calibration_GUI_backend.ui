@@ -157,7 +157,7 @@
              <string>Keithley 2450 Address:</string>
             </property>
            </widget>
-           <widget class="QLineEdit" name="Switching_Matrix_Address_2">
+           <widget class="QLineEdit" name="MK2000B_Address">
             <property name="geometry">
              <rect>
               <x>140</x>
@@ -181,6 +181,19 @@
             </property>
             <property name="text">
              <string>Temp Controller Address:</string>
+            </property>
+           </widget>
+           <widget class="QPushButton" name="pushButton">
+            <property name="geometry">
+             <rect>
+              <x>280</x>
+              <y>59</y>
+              <width>121</width>
+              <height>23</height>
+             </rect>
+            </property>
+            <property name="text">
+             <string>Show Resources</string>
             </property>
            </widget>
           </widget>
@@ -856,11 +869,56 @@
           </widget>
          </item>
          <item>
+          <widget class="QLineEdit" name="plc_samples_entry">
+           <property name="minimumSize">
+            <size>
+             <width>60</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>60</width>
+             <height>16777215</height>
+            </size>
+           </property>
+           <property name="placeholderText">
+            <string># Samples</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>44</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
           <widget class="QCheckBox" name="fit_line_checkBox">
            <property name="text">
             <string>Fitting Line</string>
            </property>
           </widget>
+         </item>
+         <item>
+          <spacer name="horizontalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>44</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
          </item>
          <item>
           <widget class="QCheckBox" name="save_checkBox">
@@ -1009,6 +1067,7 @@ color: rgb(158, 158, 158);
         <widget class="QWidget" name="voltage_page"/>
         <widget class="QWidget" name="current_page"/>
         <widget class="QWidget" name="resistance_page"/>
+        <widget class="QWidget" name="TCR_page"/>
        </widget>
       </item>
      </layout>
