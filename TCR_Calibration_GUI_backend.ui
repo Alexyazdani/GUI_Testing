@@ -183,7 +183,7 @@
              <string>Temp Controller Address:</string>
             </property>
            </widget>
-           <widget class="QPushButton" name="pushButton">
+           <widget class="QPushButton" name="resource_button">
             <property name="geometry">
              <rect>
               <x>280</x>
