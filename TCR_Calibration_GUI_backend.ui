@@ -927,6 +927,26 @@
            </property>
           </widget>
          </item>
+         <item>
+          <spacer name="horizontalSpacer_3">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>3</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QCheckBox" name="tcr_dir_checkBox">
+           <property name="text">
+            <string>Reverse</string>
+           </property>
+          </widget>
+         </item>
         </layout>
        </widget>
       </item>
