@@ -1087,6 +1087,7 @@ color: rgb(158, 158, 158);
         <widget class="QWidget" name="voltage_page"/>
         <widget class="QWidget" name="current_page"/>
         <widget class="QWidget" name="resistance_page"/>
+        <widget class="QWidget" name="temperature_page"/>
         <widget class="QWidget" name="TCR_page"/>
        </widget>
       </item>
